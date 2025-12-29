@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QB Scoreboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏈 NFL QB Scoreboard</h1>
+    <p>Custom QB scores based on passing efficiency and performance</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <button id="loadData">Load QB Data</button>
+    </div>
+    <table id="qbTable">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Team</th>
+          <th>Yards</th>
+          <th>TDs</th>
+          <th>INTs</th>
+          <th>Completion %</th>
+          <th>QB Score</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Data source: ESPN/NFL (sample dataset). Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
